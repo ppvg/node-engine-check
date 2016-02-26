@@ -1,0 +1,29 @@
+{
+  "name": "engine-check",
+  "version": "1.0.0",
+  "description": "Enforce node engine version from package.json",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+    "semver": "^5.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0"
+  },
+  "engines": {
+    "node": ">=0.10",
+    "iojs": "*"
+  },
+  "keywords": [
+    "engines",
+    "engine",
+    "version",
+    "engine version",
+    "version check",
+    "engine version check"
+  ],
+  "author": "Peter-Paul <mail@ppvg.nl>",
+  "license": "ISC"
+}
