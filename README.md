@@ -48,7 +48,7 @@ bash$ echo $?
 1
 ```
 
-Note: the warning is sent to STDOUT. If you'd rather not have any output, you
+Note: the warning is sent to STDERR. If you'd rather not have any output, you
 can set the `silent` option:
 
 ```javascript
