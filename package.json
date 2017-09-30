@@ -17,6 +17,8 @@
     "iojs": "*"
   },
   "keywords": [
+    "node",
+    "npm",
     "engines",
     "engine",
     "version",
