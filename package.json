@@ -17,6 +17,8 @@
     "iojs": "*"
   },
   "keywords": [
+    "node",
+    "npm",
     "engines",
     "engine",
     "version",
@@ -25,5 +27,6 @@
     "engine version check"
   ],
   "author": "Peter-Paul <mail@ppvg.nl>",
+  "repository": "ppvg/node-engine-check",
   "license": "ISC"
 }

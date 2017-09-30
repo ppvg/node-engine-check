@@ -31,8 +31,10 @@ And then run your app with the correct version of node:
 ```text
 bash$ node -v
 v4.3.1
+
 bash$ node index.js
 Hello node >=4.0!
+
 bash$ echo $?
 0
 ```
@@ -42,13 +44,15 @@ Or with an outdated one:
 ```text
 bash$ node -v
 v0.12.10
+
 bash$ node index.js
 Detected node version: 0.12.10. Required node version: >=4.0.
+
 bash$ echo $?
 1
 ```
 
-Note: the warning is sent to STDOUT. If you'd rather not have any output, you
+Note: the warning is sent to STDERR. If you'd rather not have any output, you
 can set the `silent` option:
 
 ```javascript
@@ -60,7 +64,9 @@ console.log('Hello node >=4.0!')
 ```text
 bash$ node -v
 v0.12.10
+
 bash$ node index.js
+
 bash$ echo $?
 1
 ```
