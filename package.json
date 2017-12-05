@@ -26,6 +26,9 @@
     "version check",
     "engine version check"
   ],
+  "files": [
+    "index.js"
+  ],
   "author": "Peter-Paul <mail@ppvg.nl>",
   "repository": "ppvg/node-engine-check",
   "license": "ISC"
