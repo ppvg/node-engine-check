@@ -1,6 +1,6 @@
 {
   "name": "engine-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enforce node engine version from package.json",
   "main": "index.js",
   "scripts": {
